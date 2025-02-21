@@ -1,20 +1,19 @@
 # The working application  link https://minor-b21me077.onrender.com
+
 # 🚀 FairAI-Promote: Internal Mobility & Promotion Platform
-
 A React-based web application for **bias detection**, **fairness monitoring**, and **promotion transparency**. This platform provides dashboards for **employees, managers, and HR**, enabling data-driven promotion decisions.
-
 ---
 ## 📸 **Screenshots**
 
 ### Employee Dashboard
-![Employee Dashboard](./screenshots/employee_dashboard.png)
 ![employee_dashboard png](https://github.com/user-attachments/assets/2e2a8d1d-115e-45d7-ac04-5bb89eb8fa62)
 
 ### Manager Dashboard
-![Manager Dashboard](./screenshots/manager_dashboard.png)
+![manager_dashboard png](https://github.com/user-attachments/assets/fef945aa-2976-4078-904a-823cdf5a765a)
+
 
 ### HR Dashboard
-![HR Dashboard](./screenshots/hr_dashboard.png)
+![hr_dashboard png](https://github.com/user-attachments/assets/4ad7dabc-7618-4dea-a45d-4b58e69a5341)
 
 ---
 
