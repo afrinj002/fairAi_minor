@@ -8,6 +8,7 @@ A React-based web application for **bias detection**, **fairness monitoring**, a
 
 ### Employee Dashboard
 ![Employee Dashboard](./screenshots/employee_dashboard.png)
+![employee_dashboard png](https://github.com/user-attachments/assets/2e2a8d1d-115e-45d7-ac04-5bb89eb8fa62)
 
 ### Manager Dashboard
 ![Manager Dashboard](./screenshots/manager_dashboard.png)
