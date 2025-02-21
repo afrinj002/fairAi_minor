@@ -1,0 +1,122 @@
+/* EmployeeDashboard.css */
+
+/* General dashboard styling */
+.dashboard-container {
+    padding: 20px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dashboard title */
+  .dashboard-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 20px;
+  }
+  
+  /* Section heading */
+  .section-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Promotion Opportunities Grid */
+  .promotion-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .promotion-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .promotion-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .promotion-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e40af;
+  }
+  
+  .promotion-card p {
+    font-size: 16px;
+    color: #4b5563;
+    margin: 5px 0;
+  }
+  
+  /* Apply Button */
+  .apply-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Feedback & Insights */
+  .feedback-section {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .feedback-section li {
+    font-size: 16px;
+    color: #4b5563;
+    margin-bottom: 8px;
+  }
+  
+  /* Learning Pathways */
+  .learning-pathways {
+    margin-top: 30px;
+  }
+  
+  .learning-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .learning-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e40af;
+  }
+  
+  .learning-card p {
+    font-size: 16px;
+    color: #4b5563;
+  }
+  

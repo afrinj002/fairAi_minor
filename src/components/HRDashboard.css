@@ -1,0 +1,102 @@
+/* HRDashboard.css */
+
+/* General page styling */
+.dashboard-container {
+    padding: 20px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  /* Dashboard title */
+  .dashboard-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 20px;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 10px;
+  }
+  
+  /* General text styling */
+  .text {
+    font-size: 18px;
+    color: #4b5563;
+    margin: 5px 0;
+  }
+  
+  .text span {
+    font-weight: bold;
+  }
+  
+  /* Grid for department promotions */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .grid-item {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Styling */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d1d5db;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table thead {
+    background-color: #e5e7eb;
+    color: #374151;
+  }
+  
+  .approved {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .pending {
+    color: orange;
+    font-weight: bold;
+  }
+  
